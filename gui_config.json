@@ -1,0 +1,14 @@
+{
+  "model_path": "YOLO11n.pt",
+  "conf_threshold": 0.45,
+  "region_json_path": "regions.json",
+  "mask_threshold": 127,
+  "mask_max_value": 255,
+  "overlap_threshold": 0.1,
+  "serial_port": "COM4",
+  "baud_rate": 9600,
+  "motor_speed": 255,
+  "recordings_dir": "recordings",
+  "screenshots_dir": "screenshots",
+  "auto_screenshot": true
+}

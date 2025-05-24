@@ -59,7 +59,7 @@ Guideway combines:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/Guideway.git
+   git clone https://github.com/ksdchun/Guideway.git
    cd Guideway
    ```
 2. Create a virtual environment and install dependencies:
@@ -71,21 +71,12 @@ Guideway combines:
 
 ---
 
-## Environment Setup
-
-Use the provided `requirements.txt` for reproducible installs:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Configuration
 
 - **`gui_config.json`**  
   ```json
   {
-    "model_path": "YOLO11n.pt",
+    "model_path": "weights/YOLO11n.pt",
     "conf_threshold": 0.45,
     "region_json_path": "regions.json",
     "mask_threshold": 127,
@@ -106,7 +97,7 @@ pip install -r requirements.txt
 
 | Setting             | Description                                         | Default       |
 |---------------------|-----------------------------------------------------|---------------|
-| model_path          | Path to YOLO weights (`.pt` file)                   | YOLO11n.pt    |
+| model_path          | Path to YOLO weights (`.pt` file)                   | weights/YOLO11n.pt    |
 | conf_threshold      | YOLO confidence cutoff (0.0–1.0)                    | 0.45          |
 | region_json_path    | Path to ROI definitions JSON                        | regions.json  |
 | mask_threshold      | Binary threshold for mask creation                  | 127           |
@@ -156,7 +147,8 @@ Guideway/
 ├── requirements.txt
 ├── region_creator.py
 ├── regions.json
-├── YOLO11n.pt
+├── weights/
+│   └── YOLO11n.pt
 ├── recordings/           # created at runtime
 ├── screenshots/          # created at runtime
 ├── yolo11n_arduino.py

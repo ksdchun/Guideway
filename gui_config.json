@@ -1,5 +1,5 @@
 {
-  "model_path": "YOLO11n.pt",
+  "model_path": "weights/YOLO11n.pt",
   "conf_threshold": 0.45,
   "region_json_path": "regions.json",
   "mask_threshold": 127,

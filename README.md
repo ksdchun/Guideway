@@ -16,6 +16,7 @@
 8. Usage  
    - Region Creator Tool  
    - YOLO + Arduino GUI  
+   - Arduino Speed Control Sketch  
 9. Directory Structure  
 10. Troubleshooting & FAQ 
 
@@ -138,6 +139,13 @@ python yolo11n_arduino.py
 
 See [README_yolo11n_arduino.md](README_yolo11n_arduino.md).
 
+### Arduino Speed Control Sketch
+
+```bash
+arduino_speed_control.ino
+```
+See [README_arduino_speed_control.md](README_arduino_speed_control.md)
+
 ---
 
 ## Directory Structure
@@ -154,7 +162,8 @@ Guideway/
 ├── yolo11n_arduino.py
 ├── README.md
 ├── README_region_creator.md
-└── README_yolo11n_arduino.md
+├── README_yolo11n_arduino.md
+└── README_arduino_speed_control.md
 ```
 
 ---

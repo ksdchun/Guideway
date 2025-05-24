@@ -59,7 +59,7 @@ Edit `gui_config.json`:
 | mask_threshold      | Grayscale threshold for mask binarization (0–255)               | 127                     |
 | mask_max_value      | Maximum value for binary mask pixels (0–255)                    | 255                     |
 | overlap_threshold   | Minimum fraction of detection box overlap with ROI (0.0–1.0)    | 0.1                     |
-| serial_port         | Serial port for Arduino (e.g., `COM4` or `/dev/ttyACM0`)         | COM4                    |
+| serial_port         | Serial port for Arduino (e.g., `COM4`)         | COM4                    |
 | baud_rate           | Baud rate for serial communication                              | 9600                    |
 | motor_speed         | Default PWM speed for motor control (0–255)                     | 255                     |
 | recordings_dir      | Directory path where MP4 recordings are saved                   | recordings              |
